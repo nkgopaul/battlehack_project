@@ -6,53 +6,53 @@
     int user_pushed = int.Parse(Request["Digits"]);
  
     if (user_pushed == 1) {
-        twiml.Say("You have chosen problems relating to skin. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen problems relating to skin.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     }
     else if (user_pushed == 2) {
-        twiml.Say("You have chosen joint problems. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen joint problems.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     }
     else if (user_pushed == 3) {
-        twiml.Say("You have chosen back problems. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen back problems.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     }
     else if (user_pushed == 4) {
-        twiml.Say("You have chosen upper respiratory problems. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen upper respiratory problems.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     }
     else if (user_pushed == 5) {
-        twiml.Say("You have chosen heart problems. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen heart problems.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     }
     else if (user_pushed == 6) {
-        twiml.Say("You have chosen headaches. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen headaches.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     }
     else if (user_pushed == 7) {
-        twiml.Say("You have chosen mental health. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen mental health.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     }
     else if (user_pushed == 8) {
-        twiml.Say("You have chosen diabetes. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen diabetes.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     } 
     else if (user_pushed == 9) {
-        twiml.Say("You have chosen other. If this is
-        incorrect, press 0.");
+        twiml.Say("You have chosen other.");
         //store condition
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/severity.xml", "GET");
     } 
     else {
         twiml.Say("Sorry, I didn't get your response. Let's try again.");
-        twiml.Redirect("[Insert initialPickup.xml url]", "GET");
+        twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/initialPickup.xml", "GET");
     }
 }
 @Html.Raw(twiml.ToString())
