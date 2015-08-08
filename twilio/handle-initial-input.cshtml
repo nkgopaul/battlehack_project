@@ -1,0 +1,78 @@
+@{
+    Response.ContentType = "text/xml";
+    
+    var twiml = new Twilio.TwiML.TwilioResponse();
+    
+    int user_pushed = int.Parse(Request["Digits"]);
+ 
+    if (user_pushed == 1) {
+        twiml.Say("You have chosen problems relating to skin. If this is
+        incorrect, press 0.");
+        //store condition
+    }
+    else if (user_pushed == 2) {
+        twiml.Say("You have chosen joint problems. If this is
+        incorrect, press 0.");
+        //store condition
+    }
+    else if (user_pushed == 3) {
+        twiml.Say("You have chosen back problems. If this is
+        incorrect, press 0.");
+        //store condition
+    }
+    else if (user_pushed == 4) {
+        twiml.Say("You have chosen upper respiratory problems. If this is
+        incorrect, press 0.");
+        //store condition
+    }
+    else if (user_pushed == 5) {
+        twiml.Say("You have chosen heart problems. If this is
+        incorrect, press 0.");
+        //store condition
+    }
+    else if (user_pushed == 6) {
+        twiml.Say("You have chosen headaches. If this is
+        incorrect, press 0.");
+        //store condition
+    }
+    else if (user_pushed == 7) {
+        twiml.Say("You have chosen mental health. If this is
+        incorrect, press 0.");
+        //store condition
+    }
+    else if (user_pushed == 8) {
+        twiml.Say("You have chosen diabetes. If this is
+        incorrect, press 0.");
+        //store condition
+    } 
+    else if (user_pushed == 9) {
+        twiml.Say("You have chosen other. If this is
+        incorrect, press 0.");
+        //store condition
+    } 
+    else {
+        twiml.Say("Sorry, I didn't get your response. Let's try again.");
+        twiml.Redirect("[Insert initialPickup.xml url]", "GET");
+    }
+}
+@Html.Raw(twiml.ToString())
+
+/*
+    else if (user_pushed == 2)
+    {
+        twiml.BeginGather(new {action="handle-extension.cshtml", numDigits="1"})
+            .Say("Please enter your party's extension.")
+            .Say("Press 0 to return to the main menu");
+        twiml.EndGather();
+        twiml.Say("Sorry, I didn't get your response.");
+        twiml.Redirect("handle-user-input.cshtml?Digits=2", "GET");
+    }
+
+    else 
+    {
+        // We'll implement the rest of the functionality in the 
+        // following sections.
+        twiml.Say("Sorry, I can't do that yet.");
+        twiml.Redirect("handle-incoming-call.xml", "GET");
+    }
+*/

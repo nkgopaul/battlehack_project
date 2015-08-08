@@ -1,0 +1,13 @@
+@{
+    Response.ContentType = "text/xml";
+    
+    var twiml = new Twilio.TwiML.TwilioResponse();
+    
+    int user_pushed = int.Parse(Request["Digits"]);
+    
+    //store int user_pushed into database
+
+    twiml.Say("The severity of your condition has been recorded.");
+    twiml.Redirect("[Insert scheduling.xml url]", "GET");
+}
+@Html.Raw(twiml.ToString())
