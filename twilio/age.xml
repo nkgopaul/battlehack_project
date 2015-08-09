@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
+	<Say>I will pause 10 seconds starting now!</Say>
+    <Pause length="10"/>
+    <Say>I just paused 10 seconds</Say>
 		<Say>Welcome to Village Med,</Say>
 		<Say>If you are experiencing a medical emergency, please hang up the phone and call 9 1 1.</Say>
-		<Say> Please enter your age. . . . . . </Say>
+		<Say> Please enter your age.</Say>
 		<Say>Please enter a number corresponding to your gender. 1 for female, 2 for male, 3 for other. </Say>
 		<Pause length="5"/>
 		<Say>At the tone, please describe your medical needs. </Say>
