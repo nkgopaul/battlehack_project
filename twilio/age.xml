@@ -16,6 +16,6 @@
         <Pause length="3"/>
         <Say>Enter your ideal time of day. Press 1 for morning, 2 for afternoon, and 3 for evening.</Say>
         <Pause length="3"/>
-        <Say>Thank you, a doctor will contact you as soon as possible.</Say>
+        <Say>Thank you for calling VillageMed.  We will try to schedule an appointment for you on August 11 between 3 and 5 in the evening.  A text message will be sent to you to confirm your appointment within the next 48 hours.  We hope to get you feeling better soon.  Good bye.</Say>
 	<!-- If caller doesn't input anything, prompt and try again. -->
 </Response>
