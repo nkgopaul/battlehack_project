@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-		<Say>Welcome to Village Med,</Say>
-		<Say>If you are experiencing an immediate medical emergency, please hang up and dial your local emergency response.</Say>
-		<Say> Please enter your age using the keypad.</Say>
+		<Say voice="woman">Welcome to Village Med,</Say>
+		<Say voice="woman">If you are experiencing an immediate medical emergency, please hang up and dial your local emergency response.</Say>
+		<Say voice="woman"> Please enter your age using the key pad.</Say>
 		<Pause length="5"/>
-		<Say>Please enter a number corresponding to your gender. 1 for female, 2 for male, 3 for other. </Say>
+		<Say voice="woman">Please enter a number corresponding to your gender. 1 for female, 2 for male, 3 for other. </Say>
 		<Pause length="5"/>
-		<Say>Please enter the urgency of your medical needs on a scale of one to five. </Say>
+		<Say voice="woman">Please enter the urgency of your medical needs on a scale of one to five. </Say>
 		<Pause length="3"/>
-		<Say>Please describe your medical symptoms. </Say>
+		<Say voice="woman">Please describe your medical symptoms. </Say>
 		<Pause length="3"/>
-		<Say>Please enter the date of your availability in 6 digits. </Say>
+		<Say voice="woman">Please enter the date of your availability in 6 digits. </Say>
 		<Pause length="3"/>
-        <Say>For example, January first of twenty fifteen would be 0 1 0 1 1 5. </Say>
+        <Say voice="woman">For example, January first of twenty fifteen would be 0 1 0 1 1 5. </Say>
         <Pause length="3"/>
-        <Say>Enter your ideal time of day. Press 1 for morning, 2 for afternoon, and 3 for evening.</Say>
+        <Say voice="woman">Enter your ideal time of day. Press 1 for morning, 2 for afternoon, and 3 for evening.</Say>
         <Pause length="3"/>
-        <Say>Thank you for calling VillageMed.  We will try to schedule an appointment for you on August 11 between 3 and 5 in the evening.  A text message will be sent to you to confirm your appointment within the next 48 hours.  We hope to get you feeling better soon.  Good bye.</Say>
+        <Say voice="woman">Thank you for calling VillageMed.  We will try to schedule an appointment for you on August 11 between 3 and 5 in the evening.  A text message will be sent to you to confirm your appointment within the next 48 hours.  We hope to get you feeling better soon.  Good bye.</Say>
 	<!-- If caller doesn't input anything, prompt and try again. -->
 </Response>
