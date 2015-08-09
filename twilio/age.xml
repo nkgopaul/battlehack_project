@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
 		<Say>Welcome to Village Med,</Say>
-		<Say>If you are experiencing an immediate medical emergency, please hang up and dial your local emergency response</Say>
+		<Say>If you are experiencing an immediate medical emergency, please hang up and dial your local emergency response.</Say>
 		<Say> Please enter your age using the keypad.</Say>
 		<Pause length="5"/>
 		<Say>Please enter a number corresponding to your gender. 1 for female, 2 for male, 3 for other. </Say>
