@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-scheduling-input.cshtml" numDigits="1">
+    <Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-scheduling-input.cshtml" numDigits="6">
         <Say>Please enter the date of your availability in 6 digits. </Say>
         <Say>For example, January first of twenty fifteen would be 0 1 0 1 1 5. </Say>
     </Gather>

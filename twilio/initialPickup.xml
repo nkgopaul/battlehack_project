@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
 	<Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-initial-input.cshtml" numDigits="1">
-		<Say>Welcome to Village Med.</Say>
-		<Say>If you are experiencing a medical emergency, please hang up the phone and call 9 1 1.</Say>
-		<Say>Please press the button corresponding to the type of doctor you would like to request.</Say>
-		<Say>If you are facing problems relating to skin, press 1.</Say>
-		<Say>If you are facing joint problems, press 2.</Say>
-		<Say>If you are facing back problems, press 3.</Say>
-		<Say>If you are facing upper respiratory problems, press 4.</Say>
-		<Say>If you are facing heart problems, press 5.</Say>
-		<Say>If you are dealing with headaches, press 6.</Say>
-		<Say>If your problem is related to mental health, press 7.</Say>
-		<Say>If your problem is related to diabetes, press 8.</Say>
-		<Say>If none of these fit your medical needs, press 9.</Say>
+		<Say>Welcome to Village Med,</Say>
+		<Say>If you are experiencing a medical emergency, please hang up the phone and call 9 1 1.
+		Please press the button corresponding to the type of doctor you would like to request.
+		If you are facing problems relating to skin, press 1.
+		If you are facing joint problems, press 2.
+		If you are facing back problems, press 3.
+		If you are facing upper respiratory problems, press 4.
+		If you are facing heart problems, press 5.
+		If you are dealing with headaches, press 6.
+		If your problem is related to mental health, press 7.
+		If your problem is related to diabetes, press 8.
+		If none of these fit your medical needs, press 9.</Say>
 	</Gather>
 	<!-- If caller doesn't input anything, prompt and try again. -->
 	<Say>Sorry, I didn't get your response.</Say>

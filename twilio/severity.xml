@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
     <Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-severity-input.cshtml" numDigits="1">
-        <Say>Please enter the urgency of your medical needs on a scale of one to ten. </Say>
+        <Say>Please enter the urgency of your medical needs on a scale of one to five. </Say>
     </Gather>
     <!-- If customer doesn't input anything, prompt and try again. -->
     <Say>Sorry, I didn't get your response.</Say>
