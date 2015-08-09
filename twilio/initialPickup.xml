@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-	<Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-initial-input.cshtml" numDigits="1">
+	<Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-user-input.php" numDigits="1">
 		<Say>Welcome to Village Med,</Say>
 		<Say>If you are experiencing a medical emergency, please hang up the phone and call 9 1 1.
 		Please press the button corresponding to the type of ailment.
