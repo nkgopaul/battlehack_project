@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-initial-input.cshtml" numDigits="1">
+		<Say>
+		Please press the button corresponding to the type doctor you would like to see.
+		To see a dermatologist, press 1.
+		To see an orthopedic, press 2.
+		To see a chiropractor, press 3.
+		To see a cardiologist, press 4.
+		To see a psychiatrist, press 5.
+		To see an endocrinologist, press 6.
+		To see a pediatrician, press 7.
+		To see a general doctor, press 8. </Say>
+	</Gather>
+	<!-- If caller doesn't input anything, prompt and try again. -->
+	<Say>Sorry, I didn't get your response.</Say>
+	<Redirect>initialPickup.xml</Redirect>
+</Response>

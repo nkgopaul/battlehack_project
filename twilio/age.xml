@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-initial-input.cshtml" numDigits="1">
+		<Say>Welcome to Village Med,</Say>
+		<Say>If you are experiencing a medical emergency, please hang up the phone and call 9 1 1.
+		Please press three digits corresponding to your age. If your client is less than three digits, enter zeroes before it. For example,
+		someone who is forty one would enter 0 4 1. </Say>
+	</Gather>
+	<!-- If caller doesn't input anything, prompt and try again. -->
+	<Say>Sorry, I didn't get your response.</Say>
+	<Redirect>initialPickup.xml</Redirect>
+</Response>
