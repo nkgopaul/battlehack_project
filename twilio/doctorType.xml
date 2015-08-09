@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-	<Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-initial-input.cshtml" numDigits="1">
+	<Gather action="[insert handle-doctor-Type-input cshtml file url from server]" numDigits="1">
 		<Say>
 		Please press the button corresponding to the type doctor you would like to see.
 		To see a dermatologist, press 1.

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-	<Gather action="https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/handle-initial-input.cshtml" numDigits="1">
+	<Gather action="[enter URL for handle gender input from server]" numDigits="1">
 		<Say>Please enter a number corresponding to your gender. 1 for female, 2 for male, 3 for other. </Say>
 	</Gather>
 	<!-- If caller doesn't input anything, prompt and try again. -->

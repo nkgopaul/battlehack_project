@@ -8,6 +8,6 @@
     //store int user_pushed into database
 
     twiml.Say("Your age has been recorded.");
-    twiml.Redirect([insert gender xml URL], "GET");
+    twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/gender.xml", "GET");
 }
 @Html.Raw(twiml.ToString())

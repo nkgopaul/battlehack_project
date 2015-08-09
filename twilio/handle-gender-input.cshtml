@@ -8,6 +8,6 @@
     //store int user_pushed into database
 
     twiml.Say("Your gender has been recorded.");
-    twiml.Redirect([insert doctor type xml URL], "GET");
+    twiml.Redirect("https://raw.githubusercontent.com/nkgopaul/battlehack_project/master/twilio/doctorType.xml", "GET");
 }
 @Html.Raw(twiml.ToString())
