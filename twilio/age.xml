@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
 		<Say>Welcome to Village Med,</Say>
-		<Say>If you are experiencing a medical emergency, please hang up the phone and call 9 1 1.</Say>
-		<Say> Please enter your age.</Say>
+		<Say>If you are experiencing an immediate medical emergency, please hang up and dial your local emergency response</Say>
+		<Say> Please enter your age using the keypad.</Say>
 		<Pause length="5"/>
 		<Say>Please enter a number corresponding to your gender. 1 for female, 2 for male, 3 for other. </Say>
 		<Pause length="5"/>
-		<Say>Please describe your medical needs. </Say>
-		<Pause length="3"/>
 		<Say>Please enter the urgency of your medical needs on a scale of one to five. </Say>
+		<Pause length="3"/>
+		<Say>Please describe your medical symptoms. </Say>
 		<Pause length="3"/>
 		<Say>Please enter the date of your availability in 6 digits. </Say>
 		<Pause length="3"/>
         <Say>For example, January first of twenty fifteen would be 0 1 0 1 1 5. </Say>
+        <Pause length="3"/>
+        <Say>Enter your ideal time of day. Press 1 for morning, 2 for afternoon, and 3 for evening.</Say>
         <Pause length="3"/>
         <Say>Thank you, a doctor will contact you as soon as possible.</Say>
 	<!-- If caller doesn't input anything, prompt and try again. -->
